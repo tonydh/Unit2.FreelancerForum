@@ -1,15 +1,42 @@
-.freelancers-container {
+/* general styling */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.freelancers {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: red;
-    font-weight: bold;
-    padding: .2em;
-    border: solid 1px black;
+h1 {
+    font-weight: bolder;
 }
+
+
+th {
+    padding: .1em;
+}
+
+td {
+    padding: .5em;
+    text-align: center;
+}
+
+/* class & id */
+
+#forum-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(227, 229, 230);
+    padding: 2.5em;
+    box-shadow: .5cm .5cm;
+}
+
+
